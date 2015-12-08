@@ -1,7 +1,10 @@
 ##test for SparkR
 ##code must be run inside SparkR, not RStudio as it has the SQL context loaded
 ##run sparkR on the commandline to run this code
+
+## sources
 ##https://spark.apache.org/docs/latest/sparkr.html
+##http://spark.apache.org/docs/latest/sql-programming-guide.html
 
 ## create a dataframe from a local dataframe
 df <- createDataFrame(sqlContext,faithful)
